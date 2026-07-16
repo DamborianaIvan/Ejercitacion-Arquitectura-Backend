@@ -1,6 +1,5 @@
 // @/models.js
-const mongoose = require('mongoose')
-
+import mongoose from 'mongoose';
 const DogSchema = new mongoose.Schema({
   name: {
     type: String,
