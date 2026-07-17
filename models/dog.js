@@ -21,5 +21,4 @@ const DogSchema = new mongoose.Schema({
 })
 
 const Dog = mongoose.model('Dog', DogSchema)
-
-module.exports = { Dog }
+export default Dog;
